@@ -1,0 +1,22 @@
+%Warning-BLKSEQ: /openlane/designs/alu4bit/src/alu4bit.v:20:28: Blocking assignment '=' in sequential logic process
+                                                              : ... Suggest using delayed assignment '<='
+   20 |             3'b111: result = ~(a ^ b);                     
+      |                            ^
+                 ... For warning description see https://verilator.org/warn/BLKSEQ?v=5.018
+                 ... Use "/* verilator lint_off BLKSEQ */" and lint_on around source to disable this message.
+%Warning-BLKSEQ: /openlane/designs/alu4bit/src/alu4bit.v:16:28: Blocking assignment '=' in sequential logic process
+                                                              : ... Suggest using delayed assignment '<='
+   16 |             3'b011: result = a | b;                        
+      |                            ^
+%Warning-BLKSEQ: /openlane/designs/alu4bit/src/alu4bit.v:14:41: Blocking assignment '=' in sequential logic process
+                                                              : ... Suggest using delayed assignment '<='
+   14 |             3'b001: {carry_out, result} = a - b;           
+      |                                         ^
+%Warning-BLKSEQ: /openlane/designs/alu4bit/src/alu4bit.v:13:41: Blocking assignment '=' in sequential logic process
+                                                              : ... Suggest using delayed assignment '<='
+   13 |             3'b000: {carry_out, result} = a + b;           
+      |                                         ^
+%Warning-BLKSEQ: /openlane/designs/alu4bit/src/alu4bit.v:25:14: Blocking assignment '=' in sequential logic process
+                                                              : ... Suggest using delayed assignment '<='
+   25 |         zero = (result == 4'b0000) ? 1'b1 : 1'b0;
+      |              ^

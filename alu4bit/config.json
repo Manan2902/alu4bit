@@ -1,0 +1,21 @@
+{
+    "DESIGN_NAME": "alu4bit",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "RUN_CTS": true,
+    "FP_PDN_MULTILAYER": true,
+    "SYNTH_STRATEGY": "AREA 3",
+    "RUN_TAP_DECAP_INSERTION": true,
+    "PL_TARGET_DENSITY": 0.85,
+    "PL_RESIZER_DESIGN_OPTIMIZATION": true,
+    "PL_RESIZER_BUFFER_OUTPUT_PORTS": true,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 50 50",
+    "TOP_MARGIN_MULT": 2,
+    "BOTTOM_MARGIN_MULT": 2,
+    "FP_IO_HLENGTH": 2,
+    "FP_IO_VLENGTH": 2,
+    "FP_PDN_MULTILAYER": true,
+    "RT_MAX_LAYER": "met4"
+}

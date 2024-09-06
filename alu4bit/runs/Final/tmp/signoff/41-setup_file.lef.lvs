@@ -1,0 +1,1 @@
+lvs {/openlane/designs/alu4bit/runs/Final/results/signoff/alu4bit.spice alu4bit} {/openlane/designs/alu4bit/runs/Final/tmp/signoff/38-alu4bit.pnl.v alu4bit} /home/manan/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/alu4bit/runs/Final/logs/signoff/41-alu4bit.lef.lvs.log -json
